@@ -1,0 +1,39 @@
+}
+.row {
+  margin: 0.5em 0;
+  float: left;
+  clear: both;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+
+
+}
+.row:nth-child(5) {
+  background: transparent;
+}
+.row:nth-child(5) i {
+  color: #34495e;
+  border: 2px solid #34495e;
+  border-radius: 50%;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.row:nth-child(5) i:hover {
+  background: #34495e;
+  color: white;
+  top: -2px;
+}
+.row:nth-child(5) i:not(:first-child) {
+  margin-left: 1em;
+}
+}
+}
